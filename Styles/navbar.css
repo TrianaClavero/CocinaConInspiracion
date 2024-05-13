@@ -24,7 +24,7 @@
 }
   
 .search-bar input {
-    width: 190px;
+    width: 170px;
     padding: 8px;
     border: none;
     border-radius: 5px;
@@ -101,11 +101,11 @@
     border-bottom: 1px solid #555;
 }
 
-    .menu-list li:last-child {
-        border-bottom: none;
-    }
+.menu-list li:last-child {
+    border-bottom: none;
+}
 
-    .menu-list li a {
-        color: #fff;
-        text-decoration: none;
-    }
+.menu-list li a {
+    color: #fff;
+    text-decoration: none;
+}
