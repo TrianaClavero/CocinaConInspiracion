@@ -15,10 +15,12 @@
 
 .logo img {
     width: 40px;
+    border-radius: 50%;
 } 
   
 .search-bar {
     margin: 0 20px;
+    
 }
   
 .search-bar input {
