@@ -1,0 +1,149 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <nav class='navbar'>
+        <div class="logo">
+            <img src="../Assets/Logo.png" alt="Logo">
+        </div>
+    
+        <div class="search-bar">
+            <input type="text" placeholder="Buscar por ingredientes">
+            <button>🔎</button>
+          </div>
+    
+          <div class="menu">
+            <input type="checkbox" id="menu-toggle" class="menu-toggle">
+            <label for="menu-toggle" class="menu-icon"></label>
+            <div class="menu-overlay"></div>
+            <ul class="menu-list">
+              <li><a href="#">Arroz</a></li>
+              <li><a href="#">Pastas</a></li>
+              <li><a href="#">Carnes</a></li>
+              <li><a href="#">Tartas</a></li>
+              <li><a href="#">Sandwiches</a></li>
+              <li><a href="#">Guarniciones</a></li>
+              <li><a href="#">Dulces y Postres</a></li>
+              <li><a href="#">Panaderia y Pasteleria</a></li>
+            </ul>
+          </div>
+    </nav>
+    
+
+    <style>
+        *{
+        box-sizing: border-box;
+        margin: 0;
+        }
+        .navbar {
+            position: relative;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            padding: 10px 20px;
+            background-color: #ff9500;
+            color: #fff;
+        }
+
+        .logo img {
+            width: 40px;
+        } 
+      
+        .search-bar {
+            flex: 1;
+            margin: 0 20px;
+        }
+      
+        .search-bar input {
+            width: 190px;
+            padding: 8px;
+            border: none;
+            border-radius: 5px;
+        }
+      
+        .search-bar button {
+            padding: 8px 10px;
+            background-color: #f6b647;
+            border: none;
+            border-radius: 5px;
+            color: #fff;
+            cursor: pointer;
+        }
+      
+        .menu {
+            position: relative;
+        }
+
+        .menu-toggle {
+            display: none;
+        }
+
+        .menu-icon {
+            cursor: pointer;
+            font-size: 20px;
+        }
+
+        .menu-icon:before {
+            content: "\2630"; /* Icono de menú (☰) */
+        }
+
+        .menu-toggle:checked + .menu-icon:before {
+            content: "\2715"; /* Icono de cruz (✕) */
+        }
+
+        .menu-overlay {
+            display: none;
+            position: fixed;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+            background-color: rgba(0, 0, 0, 0.5);
+            z-index: 1;
+  }
+
+        .menu-toggle:checked + .menu-icon + .menu-overlay {
+            display: block;
+        }
+
+  .menu-list {
+    display: none;
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%) scale(0);
+    background-color: #f6b647;
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    z-index: 2;
+    transition: transform 0.3s ease;
+  }
+
+  .menu-toggle:checked + .menu-icon + .menu-overlay + .menu-list {
+    display: block;
+    transform: translate(-50%, -50%) scale(1);
+  }
+
+  .menu-list li {
+    padding: 10px;
+    border-bottom: 1px solid #555;
+  }
+
+  .menu-list li:last-child {
+    border-bottom: none;
+  }
+
+  .menu-list li a {
+    color: #fff;
+    text-decoration: none;
+  }
+
+      </style>
+
+</body>
+</html>
