@@ -7,9 +7,9 @@
 .navbar {
     position: relative;
     display: flex;
-    justify-content: space-between;
+    justify-content: space-around;
     align-items: center;
-    padding: 1em;
+    padding: 0,5em;
     background-color: #ff9500;
     color: #fff;
 }
@@ -82,7 +82,7 @@
     left: 0;
     width: 100%;
     height: 100%;
-    background-color: rgba(0, 0, 0, 0.5);
+    background-color: #00000080;
     z-index: 1;
 }
 
@@ -98,21 +98,22 @@
 }
 
 .menu-list {
-    position: absolute;
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
     background-color: #f6b647;
     list-style: none;
     padding: 0;
     margin: 0;
     z-index: 2;
-    padding: 2em;
-    transform: translateX(-10em);
-    height: 450px;
+    display: none;
     border-radius: 5px;
     
 }
 
 .menu-list li {
-    margin: 0.5em;
+    padding: 0.5em;
     border-bottom: 1px solid #555;
 }
 
@@ -124,53 +125,4 @@
     color: #fff;
     text-decoration: none;
 
-}
-
-.card {
-    background-color: rgb(87, 167, 12);
-    border-radius: 20px;
-    width: 80%;
-    display: inline-block;
-    margin: 1em;
-    text-align: center;
-    padding: em;
-    position: relative;
-    box-sizing: border-box;
-    overflow: hidden;
-}
-
-img {
-    width: 230px;
-    height: 150px;
-    border-radius: 15px;
-    display: inline-block;
-}
-
-.btn {
-    border-radius: 15px;
-    background-color: #f47121;
-    padding: 0.5em;
-    border: solid black 2px;
-}
-
-.btn:hover {
-    border-radius: 15px;
-    background-color: rgb(6, 4, 85);
-    padding: 0.5em;
-    border: solid black 2px;
-    color: aliceblue;
-}
-
-ul {
-    
-    background-color: #f47121;
-    padding: 1em;
-
-}
-
-li {
-    display: inline-block;
-    background-color: #f47121;
-    border-radius: 5px;
-    padding: 0.3em;
 }

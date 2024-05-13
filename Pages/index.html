@@ -5,6 +5,7 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <link rel="stylesheet" href="../Styles/navbar.css">
+  <link rel="stylesheet" href="../Styles/card.css">
   <title>Web Site</title>
 </head>
 
@@ -40,34 +41,44 @@
 
   
   <!-- Fin nav-bar -->
+
   <main>
-    <div class="card">
-      <h2>Recetas del dia</h2>
-      <img src="/images/deldia.jpg" alt="" srcset=""><br>
-      <button class="btn" type="submit"> Ver mas </button>
-    </div>
-    <div class="card">
-      <h2>Recetas sin tacc</h2>
-      <img src="/images/sintacc.jpg" alt="" srcset=""><br>
-      <button class="btn" type="submit"> Ver mas </button>
-    </div>
-    <div class="card">
-      <h2>Recetas Veganas</h2>
-      <img src="/images/recetas-veganas-proteicas-d.webp" alt="" srcset=""><br>
-      <button class="btn" type="submit"> Ver mas </button>
-    </div>
-    <div class="card">
-      <h2>Tradicionales</h2>
-      <img src="/images/recetas-de-Argentina-1-800x445.jpg" alt="" srcset=""><br>
-      <button class="btn" type="submit"> Ver mas </button>
+    <div class="card-content">
+        <div class="card">
+          <h2>Recetas del dia</h2>
+          <a href="http://">
+            <img  class="img-card" src="/images/deldia.jpg" alt="" >
+          </a>
+        </div>
+
+        <div class="card">
+          <h2>Recetas sin tacc</h2>
+          <a href="">
+            <img  class="img-card" src="/images/sintacc.jpg" alt="">
+          </a>
+        </div>
+        <div class="card">
+          <h2>Recetas Veganas</h2>
+          <a href="http://">
+            <img class="img-card" src="/images/recetas-veganas-proteicas-d.webp" alt="">
+          </a>
+          
+        </div>
+        <div class="card">
+          <h2>Tradicionales</h2>
+          <a href="">
+            <img  class="img-card" src="/images/recetas-de-Argentina-1-800x445.jpg" alt="" srcset="">
+          </a>
+        </div>
     </div>
   </main>
+
   <footer>
 
   </footer>
 
 
-    <script src="../Scripts/index.js"></script>
+    <script src="../Scripts/navbar.js"></script>
 </body>
 
 </html>
