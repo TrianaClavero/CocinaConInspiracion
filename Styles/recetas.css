@@ -6,25 +6,27 @@
     padding: 20px;
 }
 
-/* Estilos para cada tarjeta de receta */
 .tarjeta {
-    border-radius: 10px;
-    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Sombra debajo de cada tarjeta */
-    background-color: #fff;
+    display: flex;
+    align-items: center;
     padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    background-color: #fff;
 }
 
 .tarjeta img {
-    width: 100%;
-    border-radius: 10px 10px 0 0; /* Redondear solo las esquinas superiores de la imagen */
+    width: 150px; 
+    height: 150px;
+    border-radius: 10px;
+    margin-right: 20px;
 }
 
-.tarjeta h2 {
-    margin-top: 10px;
-    font-size: 1.5rem;
+.datos-receta {
+    flex: 1;
 }
 
-.tarjeta p {
-    margin: 10px 0;
-    font-size: 1rem;
+.datos-receta h2 {
+    margin-bottom: 10px; 
 }
+

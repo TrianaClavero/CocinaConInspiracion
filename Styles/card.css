@@ -14,12 +14,12 @@
     padding: 0.5em;
     position: relative;
     box-sizing: border-box;
+    box-shadow: 0 4px 8px #0000001a;
     overflow: hidden;
     transition: transform 0.3s ease;
 }
 
 .card:hover{
-    box-shadow: 0px 6px 12px #0000001a;
     transform: translateY(-5px);
 }   
 
