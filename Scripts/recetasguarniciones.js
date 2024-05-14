@@ -6,7 +6,7 @@ const recetas = [
     },
     {
         nombre: "Papas Fritas",
-        imagen: "..images/Guarniciones/champinones-salteados-con-jamon-y-ajo.webp",
+        imagen: "../images/Guarniciones/champinones-salteados-con-jamon-y-ajo.webp",
         tiempoPreparacion: "45 minutos"
     },
     // mas recetas
