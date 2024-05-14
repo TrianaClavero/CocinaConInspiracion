@@ -66,6 +66,7 @@
 
 .menu-icon:before {
     content: "\2630";
+    font-size: 20px;
     /* Icono de menú (☰) */
 }
 
