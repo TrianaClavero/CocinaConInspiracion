@@ -1,12 +1,12 @@
 /* Estilos para el contenedor de recetas */
-#contenedor-recetas {
+#recipes-container {
     display: grid;
     grid-template-columns: repeat(auto-fit, minmax(300px, 1fr)); /* Diseño de cuadrícula adaptable */
     gap: 20px; /* Espacio entre las tarjetas */
     padding: 20px;
 }
 
-.tarjeta {
+.card {
     display: flex;
     align-items: center;
     padding: 20px;
@@ -15,18 +15,18 @@
     background-color: #fff;
 }
 
-.tarjeta img {
+.card img {
     width: 150px; 
     height: 150px;
     border-radius: 10px;
     margin-right: 20px;
 }
 
-.datos-receta {
+.details-recipe {
     flex: 1;
 }
 
-.datos-receta h2 {
+.details-recipe h2 {
     margin-bottom: 10px; 
 }
 
