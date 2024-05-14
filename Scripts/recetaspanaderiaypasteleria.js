@@ -1,12 +1,12 @@
 const recetas = [
     {
-        nombre: "Brownie de limon o limonie",
-        imagen: "../images/Dulces y postres/brownie-de-limon-o-lemonie.webp",
+        nombre: "Pan de leche",
+        imagen: "../images/Panaderia y pasteleria/pan-de-leche.jpg",
         tiempoPreparacion: "30 minutos"
     },
     {
-        nombre: "Budin de zanahoria",
-        imagen: "../images/Dulces y postres/Budin-de-zanahoria.avif",
+        nombre: "Torta oreo",
+        imagen: "../images/Panaderia y pasteleria/torta-oreo.webp",
         tiempoPreparacion: "45 minutos"
     },
     // mas recetas
