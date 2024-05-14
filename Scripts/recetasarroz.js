@@ -1,12 +1,12 @@
 const recetas = [
     {
         nombre: "Arroz con pollo",
-        imagen: "../images/arroz-con-pollo.jpg",
+        imagen: "../images/Arroz/arroz-con-pollo.jpg",
         tiempoPreparacion: "30 minutos"
     },
     {
         nombre: "Arroz frito con camarones",
-        imagen: "../images/arroz-frito-con-camarones.jpg",
+        imagen: "../images/Arroz/arroz-frito-con-camarones.jpg",
         tiempoPreparacion: "45 minutos"
     },
     // mas recetas

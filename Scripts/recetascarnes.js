@@ -1,12 +1,12 @@
 const recetas = [
     {
         nombre: "Estofado de carne",
-        imagen: "../images/estofado-de-carne.jpg",
+        imagen: "../images/Carnes/estofado-de-carne.jpg",
         tiempoPreparacion: "30 minutos"
     },
     {
-        nombre: "Arroz frito con camarones",
-        imagen: "../images/Kebab-de-carne-con-hierbas.avif",
+        nombre: "Kebab de carne con hierbas",
+        imagen: "../images/Carnes/Kebab-de-carne-con-hierbas.avif",
         tiempoPreparacion: "45 minutos"
     },
     // mas recetas
