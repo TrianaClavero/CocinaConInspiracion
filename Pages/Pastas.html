@@ -4,13 +4,16 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="../Styles/navbar.css">
-    <title>Pastas</title>
+    <link rel="stylesheet" href="../Styles/recetas.css">
+    <title>Arroz</title>
 </head>
 <body>
       <!-- Inicio nav-bar -->
   <nav class='navbar'>
     <div class="logo">
-      <img src="../Assets/Logo.png" alt="Logo" id="logoimg">
+      <a href='./index.html'>
+        <img src="../Assets/Logo.png" alt="Logo" id="logoimg">
+      </a>
     </div>
 
     <div class="search-bar">
@@ -36,9 +39,10 @@
   </nav>
   <div class="menu-overlay"></div>
 
+  <div id="recipes-container"></div>
   
   <!-- Fin nav-bar -->
-
+  <script src="../Scripts/recetasarroz.js"></script>
   <script src="../Scripts/navbar.js"></script>
 </body>
 </html>
