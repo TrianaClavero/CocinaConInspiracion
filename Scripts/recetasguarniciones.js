@@ -1,6 +1,7 @@
 const recetas = [
     {
         nombre: "Cebollitas francesas glaseadas",
+        nombre: "Cebollitas francesas glaseadas",
         imagen: "../images/Guarniciones/cebollitas-francesas-glaseadas.webp",
         tiempoPreparacion: "30 minutos"
     },

@@ -1,12 +1,12 @@
 const recetas = [
     {
-        nombre: "Brownie de limon o limonie",
-        imagen: "../images/Dulces y postres/brownie-de-limon-o-lemonie.webp",
+        nombre: "Pasta a la carbonara",
+        imagen: "../images/Pastas/pasta-a-la-carbonara.jpg",
         tiempoPreparacion: "30 minutos"
     },
     {
-        nombre: "Budin de zanahoria",
-        imagen: "../images/Dulces y postres/Budin-de-zanahoria.avif",
+        nombre: "Sorrentinos de jamon y queso",
+        imagen: "../images/Pastas/Sorrentinos-rellenos-de-jamon-y-queso.jpg",
         tiempoPreparacion: "45 minutos"
     },
     // mas recetas

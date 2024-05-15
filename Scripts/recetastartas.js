@@ -1,12 +1,12 @@
 const recetas = [
     {
-        nombre: "Brownie de limon o limonie",
-        imagen: "../images/Dulces y postres/brownie-de-limon-o-lemonie.webp",
+        nombre: "Tarta de atun",
+        imagen: "../images/Tartas/tarta-de-atun.webp",
         tiempoPreparacion: "30 minutos"
     },
     {
-        nombre: "Budin de zanahoria",
-        imagen: "../images/Dulces y postres/Budin-de-zanahoria.avif",
+        nombre: "Tarta de pollo",
+        imagen: "../images/Tartas/tarta-de-pollo.webp",
         tiempoPreparacion: "45 minutos"
     },
     // mas recetas

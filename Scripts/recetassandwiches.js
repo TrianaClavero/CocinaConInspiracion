@@ -1,12 +1,12 @@
 const recetas = [
     {
-        nombre: "Brownie de limon o limonie",
-        imagen: "../images/Dulces y postres/brownie-de-limon-o-lemonie.webp",
+        nombre: "Sandwich BLT (baicon, lechuga y tomate)",
+        imagen: "../images/Sandwiches/sandwich-blt.jpg",
         tiempoPreparacion: "30 minutos"
     },
     {
-        nombre: "Budin de zanahoria",
-        imagen: "../images/Dulces y postres/Budin-de-zanahoria.avif",
+        nombre: "Sandwich de pollo con salsa cesar",
+        imagen: "../images/Sandwiches/sandwich-de-pollo-con-salsa-cesar.jpg",
         tiempoPreparacion: "45 minutos"
     },
     // mas recetas
