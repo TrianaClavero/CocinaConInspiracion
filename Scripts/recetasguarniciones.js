@@ -1,12 +1,19 @@
 const recetas = [
     {
         nombre: "Cebollitas francesas glaseadas",
+<<<<<<< HEAD
         nombre: "Cebollitas francesas glaseadas",
+=======
+>>>>>>> refs/remotes/origin/main
         imagen: "../images/Guarniciones/cebollitas-francesas-glaseadas.webp",
         tiempoPreparacion: "30 minutos"
     },
     {
+<<<<<<< HEAD
         nombre: "Champignones salteados con jamon y ajo",
+=======
+        nombre: "Champiñones salteados con jamon y ajo",
+>>>>>>> refs/remotes/origin/main
         imagen: "../images/Guarniciones/champinones-salteados-con-jamon-y-ajo.webp",
         tiempoPreparacion: "45 minutos"
     },
