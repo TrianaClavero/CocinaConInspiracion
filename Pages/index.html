@@ -12,13 +12,13 @@
 <body>
   <!-- Inicio nav-bar -->
   <nav class='navbar'>
-    <div class="logo">
+    <div class="logo" id="search">
       <img src="../Assets/Logo.png" alt="Logo" id="logoimg">
     </div>
 
     <div class="search-bar">
-      <input id="search" type="text" placeholder="Buscar por ingredientes" alt="barrabuscadora">
-      <button id="botondebusqueda">🔎</button>
+      <input id="search" type="text" placeholder="Buscar por ingredientes">
+      <button id="boton-buscar" type="submit">🔎</button>
     </div>
 
     <div class="menu">
@@ -39,8 +39,9 @@
   </nav>
   <div class="menu-overlay"></div>
 
-
   <!-- Fin nav-bar -->
+
+  <div id="resultados-busqueda" class="resultados-busqueda oculto"></div>
 
   <main>
     <div class="card-content">
@@ -77,8 +78,9 @@
 
   </footer>
 
+    <script src="../Scripts/navbar.js"></script>
+    <script src="../Scripts/search.js"></script>
 
-  <script src="../Scripts/navbar.js"></script>
 </body>
 
 </html>
