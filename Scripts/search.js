@@ -116,6 +116,7 @@ document.addEventListener('DOMContentLoaded', function() {
                 return ingrediente.toLowerCase().includes(inputValue);
             });
             return resultadoNombres || resultadoIngredientes;
+
         });
         mostrarResultadosBusqueda(filteredFoods);
     });
