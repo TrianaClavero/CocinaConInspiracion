@@ -142,6 +142,7 @@ body {
     }
     .search-bar {
         margin: 0 1em;
+        
     }
     .menu-list {
         position: relative; 
@@ -171,17 +172,26 @@ body {
     }
     .search-bar {
         margin: 0;
+        width: auto;
     }
     .menu-list {
         display: flex; 
         background-color: transparent; 
         box-shadow: none; 
-        position: static; 
-
+        position: relative; 
+        top: 20px;
     }
+
     .menu-list li {
         border-bottom: none; 
     }
+
+    .menu-list li:hover{
+        background-color: #f6b647;
+        border-radius: 5px;
+        transition: 0.5ms;
+    }
+    
     .menu-icon:before {
         content: none;
     }
