@@ -111,7 +111,7 @@ document.addEventListener('DOMContentLoaded', function() {
         const foodsClone = [...foods];
         
         const filteredFoods = foodsClone.filter((food) => {
-            const resultadoNombres = foods.nombre.toLowerCase().includes(inputValue);
+            const resultadoNombres = food.nombre.toLowerCase().includes(inputValue);
             const resultadoIngredientes = food.ingredientes.some((ingrediente) => {
                 return ingrediente.toLowerCase().includes(inputValue);
             });
@@ -133,11 +133,11 @@ function mostrarResultadosBusqueda(filteredFoods) {
             foods.forEach(food => {
             // crea un div para la tarjeta de receta
             const card = document.createElement("div");
-            card.classList.add("card");
+            card.classList.add("card-receta");
                     
             // crea img para la imagen de la receta
             const imagen = document.createElement("img");
-            imagen.src = foods.img;
+            imagen.src = food.img;
             imagen.alt = "Imagen de la receta";
                     
             // Crea un div para los datos de la receta

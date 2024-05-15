@@ -17,7 +17,7 @@ document.addEventListener("DOMContentLoaded", function() {
     recetas.forEach(receta => {
         // crea un div para la tarjeta de receta
         const card = document.createElement("div");
-        card.classList.add("card");
+        card.classList.add("card-receta");
 
         // crea img para la imagen de la receta
         const imagen = document.createElement("img");

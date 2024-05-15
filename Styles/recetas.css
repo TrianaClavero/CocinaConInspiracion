@@ -6,7 +6,7 @@
     padding: 20px;
 }
 
-.card {
+.card-receta {
     display: flex;
     align-items: center;
     padding: 20px;
@@ -15,7 +15,7 @@
     background-color: #fff;
 }
 
-.card img {
+.card-receta img {
     width: 150px; 
     height: 150px;
     border-radius: 10px;

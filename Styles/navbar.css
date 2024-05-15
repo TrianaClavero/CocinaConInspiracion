@@ -159,6 +159,7 @@ body {
         background-color: transparent; 
         border-radius: 0;
         box-shadow: none; 
+
     }
     .menu-list li {
         border-bottom: none;
@@ -182,6 +183,7 @@ body {
         background-color: transparent; 
         box-shadow: none; 
         position: static; 
+
     }
     .menu-list li {
         border-bottom: none; 
