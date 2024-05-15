@@ -142,7 +142,7 @@ body {
     display: none;
 }
 
-@media screen and (min-width: 900px) and (max-width: 1024px) {
+@media screen and (min-width: 930px) and (max-width: 1024px) {
     .navbar {
         flex-direction: row; 
         padding: 1em;
@@ -159,6 +159,7 @@ body {
         background-color: transparent; 
         border-radius: 0;
         box-shadow: none; 
+        font-size: 15px;
 
     }
     .menu-list li {
