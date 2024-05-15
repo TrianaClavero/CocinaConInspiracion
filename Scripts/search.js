@@ -81,14 +81,6 @@ const foods = [
 //     let resultadonombres = foodsClone.ingredientes.tolowerCase().incluse(inputValue.tolowerCase())
 // })
 
-const foods = [
-    {
-        nombre: 'Arroz con pollo',
-        ingredientes: ['arroz', 'pollo', 'caldo', 'morron', 'cebolla', 'ajo', 'pure de tomate', 'sal', 'pimienta']
-    },
-    // Resto de los datos de alimentos...
-];
-
 // Clonamos el array para evitar modificar el original
 const foodsClone = [...foods];
 
