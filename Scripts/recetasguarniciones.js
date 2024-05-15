@@ -1,11 +1,11 @@
 const recetas = [
     {
-        nombre: "Ensalada Rusa",
+        nombre: "Cebollitas francesas glaseadas",
         imagen: "../images/Guarniciones/cebollitas-francesas-glaseadas.webp",
         tiempoPreparacion: "30 minutos"
     },
     {
-        nombre: "Papas Fritas",
+        nombre: "Champignones salteados con jamon y ajo",
         imagen: "../images/Guarniciones/champinones-salteados-con-jamon-y-ajo.webp",
         tiempoPreparacion: "45 minutos"
     },
