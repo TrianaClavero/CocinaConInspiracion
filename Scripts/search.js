@@ -71,3 +71,13 @@ const foods = [
     }
     
 ]
+
+const foodsClone = [...structuredClone(recetas)]
+
+inputValue = document.getElementById('search').value 
+
+const filteredFoods = foodsClone.filter ( (food) => {
+    let resultadoingredientes = foodsClone.ingredientes.tolowerCase().incluse(inputValue.tolowerCase())
+    let resultadonombres = foodsClone.ingredientes.tolowerCase().incluse(inputValue.tolowerCase())
+})
+
