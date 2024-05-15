@@ -72,12 +72,45 @@ const foods = [
     
 ]
 
-const foodsClone = [...structuredClone(recetas)]
+// const foodsClone = [...structuredClone(recetas)]
 
-inputValue = document.getElementById('search').value 
+// inputValue = document.getElementById('search').value 
 
-const filteredFoods = foodsClone.filter ( (food) => {
-    let resultadoingredientes = foodsClone.ingredientes.tolowerCase().incluse(inputValue.tolowerCase())
-    let resultadonombres = foodsClone.ingredientes.tolowerCase().incluse(inputValue.tolowerCase())
-})
+// const filteredFoods = foodsClone.filter ( (food) => {
+//     let resultadoingredientes = foodsClone.ingredientes.tolowerCase().incluse(inputValue.tolowerCase())
+//     let resultadonombres = foodsClone.ingredientes.tolowerCase().incluse(inputValue.tolowerCase())
+// })
 
+const foods = [
+    {
+        nombre: 'Arroz con pollo',
+        ingredientes: ['arroz', 'pollo', 'caldo', 'morron', 'cebolla', 'ajo', 'pure de tomate', 'sal', 'pimienta']
+    },
+    // Resto de los datos de alimentos...
+];
+
+// Clonamos el array para evitar modificar el original
+const foodsClone = [...foods];
+
+function buscarRecetas() {
+    const inputValue = document.getElementById('search').value.toLowerCase();
+
+    const filteredFoods = foodsClone.filter((food) => {
+        // Verificar si el nombre de la receta incluye el valor de búsqueda
+        const resultadoNombres = food.nombre.toLowerCase().includes(inputValue);
+
+        // Verificar si algún ingrediente incluye el valor de búsqueda
+        const resultadoIngredientes = food.ingredientes.some((ingrediente) => {
+            return ingrediente.toLowerCase().includes(inputValue);
+        });
+
+        // Devolver verdadero si se encuentra una coincidencia en nombre o ingredientes
+        return resultadoNombres || resultadoIngredientes;
+    });
+
+    // Aquí puedes hacer algo con filteredFoods, como mostrarlos en la página
+    console.log(filteredFoods);
+}
+
+// Ejecutar la función de búsqueda cada vez que el usuario escriba algo en el campo de búsqueda
+document.getElementById('search').addEventListener('input', buscarRecetas);
