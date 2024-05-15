@@ -5,7 +5,7 @@ const recetas = [
         tiempoPreparacion: "30 minutos"
     },
     {
-        nombre: "Champiñones salteados con jamon y ajo",
+        nombre: "Champignones salteados con jamon y ajo",
         imagen: "../images/Guarniciones/champinones-salteados-con-jamon-y-ajo.webp",
         tiempoPreparacion: "45 minutos"
     },
