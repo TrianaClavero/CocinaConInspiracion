@@ -11,7 +11,7 @@ body {
     display: flex;
     justify-content: space-around;
     align-items: center;
-    padding: 0,5em;
+    padding: 0.5em;
     background-color: #fd7b25;
     color: #fff;
 }
@@ -28,7 +28,6 @@ body {
     padding: 0.5em;
     border: solid 1px white;
     border-radius: 15px;
-
 }
 
 .search-bar input {
@@ -48,12 +47,10 @@ body {
     color: #fff;
     cursor: pointer;
     display: inline;
-
 }
 
 .menu {
     position: relative;
-
 }
 
 .menu-toggle {
@@ -63,18 +60,15 @@ body {
 .menu-icon {
     cursor: pointer;
     font-size: 1rem;
-
 }
 
 .menu-icon:before {
     content: "\2630";
-    font-size: 20px;
-    /* Icono de menú (☰) */
+    font-size: 20px; /* Icono de menú (☰) */
 }
 
-.menu-toggle:checked+.menu-icon:before {
-    content: "\2715";
-    /* Icono de cruz (✕) */
+.menu-toggle:checked + .menu-icon:before {
+    content: "\2715"; /* Icono de cruz (✕) */
     z-index: 1;
 }
 
@@ -89,12 +83,12 @@ body {
     z-index: 1;
 }
 
-.menu-toggle:checked+.menu-icon+.menu-overlay+.menu-list {
+.menu-toggle:checked + .menu-icon + .menu-overlay + .menu-list {
     display: block;
     transform: translate(-50%, -50%) scale(1);
 }
 
-.menu-toggle:checked+.menu-icon+.menu-overlay+.menu-list {
+.menu-toggle:checked + .menu-icon + .menu-overlay + .menu-list {
     display: block;
     transform: translate(-50%, -50%) scale(1);
     opacity: 1;
@@ -112,7 +106,6 @@ body {
     z-index: 2;
     display: none;
     border-radius: 5px;
-    
 }
 
 .menu-list li {
