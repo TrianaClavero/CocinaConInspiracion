@@ -70,11 +70,7 @@ const recetas = [
         imagen: "../images/Carnes/Kebab-de-carne-con-hierbas.avif",
         tiempoPreparacion: "45 minutos",
         url: '../Pages/Arroz_con_pollo.html'
-<<<<<<< HEAD
     }
-=======
-    },
->>>>>>> 93855a9ccbe7d4b1b8e3ae1b998b0081f9598916
     // mas recetas
 ];
 document.addEventListener("DOMContentLoaded", function() {
