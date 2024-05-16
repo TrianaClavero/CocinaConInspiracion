@@ -11,6 +11,66 @@ const recetas = [
         tiempoPreparacion: "45 minutos",
         url: '../Pages/Arroz_con_pollo.html'
     },
+    {
+        nombre: "Pan de leche",
+        imagen: "../images/Panaderia y pasteleria/pan-de-leche.jpg",
+        tiempoPreparacion: "30 minutos",
+        url: '../Pages/Arroz_con_pollo.html'
+    },
+    {
+        nombre: "Torta oreo",
+        imagen: "../images/Panaderia y pasteleria/torta-oreo.webp",
+        tiempoPreparacion: "45 minutos",
+        url: '../Pages/Arroz_con_pollo.html'
+    },
+    {
+        nombre: "Pan de leche",
+        imagen: "../images/Panaderia y pasteleria/pan-de-leche.jpg",
+        tiempoPreparacion: "30 minutos",
+        url: '../Pages/Arroz_con_pollo.html'
+    },
+    {
+        nombre: "Torta oreo",
+        imagen: "../images/Panaderia y pasteleria/torta-oreo.webp",
+        tiempoPreparacion: "45 minutos",
+        url: '../Pages/Arroz_con_pollo.html'
+    },
+    {
+        nombre: "Pan de leche",
+        imagen: "../images/Panaderia y pasteleria/pan-de-leche.jpg",
+        tiempoPreparacion: "30 minutos",
+        url: '../Pages/Arroz_con_pollo.html'
+    },
+    {
+        nombre: "Torta oreo",
+        imagen: "../images/Panaderia y pasteleria/torta-oreo.webp",
+        tiempoPreparacion: "45 minutos",
+        url: '../Pages/Arroz_con_pollo.html'
+    },
+    {
+        nombre: "Pan de leche",
+        imagen: "../images/Panaderia y pasteleria/pan-de-leche.jpg",
+        tiempoPreparacion: "30 minutos",
+        url: '../Pages/Arroz_con_pollo.html'
+    },
+    {
+        nombre: "Torta oreo",
+        imagen: "../images/Panaderia y pasteleria/torta-oreo.webp",
+        tiempoPreparacion: "45 minutos",
+        url: '../Pages/Arroz_con_pollo.html'
+    },
+    {
+        nombre: "Pan de leche",
+        imagen: "../images/Panaderia y pasteleria/pan-de-leche.jpg",
+        tiempoPreparacion: "30 minutos",
+        url: '../Pages/Arroz_con_pollo.html'
+    },
+    {
+        nombre: "Torta oreo",
+        imagen: "../images/Panaderia y pasteleria/torta-oreo.webp",
+        tiempoPreparacion: "45 minutos",
+        url: '../Pages/Arroz_con_pollo.html'
+    }
     // mas recetas
 ];
 document.addEventListener("DOMContentLoaded", function() {

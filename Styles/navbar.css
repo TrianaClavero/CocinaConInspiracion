@@ -23,7 +23,7 @@ body {
 }
 
 .search-bar {
-    background-color: #195e4b;
+    background-color: #f47121;
     padding: 0.5em;
     border: solid 1px white;
     border-radius: 20px;
@@ -41,7 +41,7 @@ body {
 
 .search-bar button {
     padding: 0.5em;
-    background-color: #195e4b;
+    background-color: #f47121;
     border: none;
     border-radius: 5px;
     color: #fff;
@@ -209,16 +209,4 @@ footer {
         content: none;
     }
 }
-#theme-button{
-    border-radius: 10px;
-    padding: 0.5em;
-    background-color:  #195e4b;
-    color: #fff;
-    border: none;
-    margin-right: 10%;
-    position: relative;
-}
-#theme-button:hover{
-    background-color: rgb(1, 1, 12);
-    color: #f47121;
-}
+
