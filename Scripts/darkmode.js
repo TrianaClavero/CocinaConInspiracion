@@ -1,16 +1,16 @@
 function cambiarTema() {
-    const currentTheme = sessionStorage.getItem('theme') || 'light';
-    const newTheme = currentTheme === 'light' ? 'dark' : 'light';
-    document.getElementById('theme-link').href = newTheme + '.css';
+    const currentTheme = sessionStorage.getItem('theme') || 'lightmode';
+    const newTheme = currentTheme === 'lightmode' ? 'darkmode' : 'lightmode';
+    document.getElementById('theme-link').href = `../Styles/${newTheme}.css`;
     sessionStorage.setItem('theme', newTheme);
-    document.getElementById('theme-button').textContent = newTheme === 'dark' ? 'Cambiar a modo claro' : 'Cambiar a modo oscuro';
+    document.getElementById('theme-button').textContent = newTheme === 'darkmode' ? 'Cambiar a modo claro' : 'Cambiar a modo oscuro';
 }
 
 // Inicializar el tema al cargar la página
 document.addEventListener('DOMContentLoaded', () => {
-    const currentTheme = sessionStorage.getItem('theme') || 'light';
-    document.getElementById('theme-link').href = currentTheme + '.css';
-    document.getElementById('theme-button').textContent = currentTheme === 'dark' ? 'Cambiar a modo claro' : 'Cambiar a modo oscuro';
+    const currentTheme = sessionStorage.getItem('theme') || 'lightmode';
+    document.getElementById('theme-link').href = `../Styles/${newTheme}.css`;
+    document.getElementById('theme-button').textContent = currentTheme === 'darkmode' ? 'Cambiar a modo claro' : 'Cambiar a modo oscuro';
 });
 
 // Asignar el evento de clic al botón
