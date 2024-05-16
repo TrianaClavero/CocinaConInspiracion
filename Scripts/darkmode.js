@@ -15,3 +15,5 @@ document.addEventListener('DOMContentLoaded', () => {
 
 // Asignar el evento de clic al botón
 document.getElementById('theme-button').addEventListener('click', cambiarTema);
+
+
