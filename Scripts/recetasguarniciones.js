@@ -2,12 +2,14 @@ const recetas = [
     {
         nombre: "Cebollitas francesas glaseadas",
         imagen: "../images/Guarniciones/cebollitas-francesas-glaseadas.webp",
-        tiempoPreparacion: "30 minutos"
+        tiempoPreparacion: "30 minutos",
+        url: '../Pages/Arroz_con_pollo.html'
     },
     {
         nombre: "Champignones salteados con jamon y ajo",
         imagen: "../images/Guarniciones/champinones-salteados-con-jamon-y-ajo.webp",
-        tiempoPreparacion: "45 minutos"
+        tiempoPreparacion: "45 minutos",
+        url: '../Pages/Arroz_con_pollo.html'
     },
     // mas recetas
 ];
@@ -15,6 +17,10 @@ document.addEventListener("DOMContentLoaded", function() {
     const recipesContainer = document.getElementById("recipes-container");
 
     recetas.forEach(receta => {
+        const link = document.createElement("a");
+        link.href = receta.url; 
+        link.classList.add("card-link");
+
         // crea un div para la tarjeta de receta
         const card = document.createElement("div");
         card.classList.add("card-receta");
@@ -42,7 +48,9 @@ document.addEventListener("DOMContentLoaded", function() {
         detailsRecipe.appendChild(tiempoPreparacion);
         card.appendChild(detailsRecipe);
 
+        link.appendChild(card);
+
         // Agrega la tarjeta de receta al contenedor de recetas
-        recipesContainer.appendChild(card);
+        recipesContainer.appendChild(link);
     });
 });
