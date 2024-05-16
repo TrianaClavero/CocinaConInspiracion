@@ -23,7 +23,7 @@ body {
 }
 
 .search-bar {
-    background-color: #195e4b;
+    background-color: #f47121;
     padding: 0.5em;
     border: solid 1px white;
     border-radius: 20px;
@@ -41,7 +41,7 @@ body {
 
 .search-bar button {
     padding: 0.5em;
-    background-color: #195e4b;
+    background-color: #f47121;
     border: none;
     border-radius: 5px;
     color: #fff;
