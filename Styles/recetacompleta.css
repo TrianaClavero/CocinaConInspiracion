@@ -1,0 +1,47 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #fff7f0;
+}
+
+.title{
+    font-size: 40px;
+    text-align: center;
+    padding: 10px;
+}
+
+.tiempoPreparacionReceta{
+    font-size: 15px;
+    text-align: end;
+}
+
+.ingredientesTitulo, .preparacionTitulo{
+    font-size: 25px;
+    padding-left: 5px;
+}
+
+.ingredientesLista{
+    font-size: 16px;
+}
+
+.li{
+    list-style: none;
+    padding: 3px;
+}
+
+#receta {
+    max-width: 600px;
+    margin: 0 auto;
+}
+
+#receta img {
+    width: 100%;
+    height: auto;
+}
+
+h1, h2 {
+    color: #333;
+}
+
+ul, ol {
+    padding-left: 20px;
+}
