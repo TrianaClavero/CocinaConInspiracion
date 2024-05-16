@@ -23,12 +23,10 @@ body {
 }
 
 .search-bar {
-    margin: 1em;
     background-color: #195e4b;
     padding: 0.5em;
     border: solid 1px white;
     border-radius: 20px;
-    
 }
 
 .search-bar input {
@@ -38,6 +36,7 @@ body {
     border-radius: 10px;
     outline: none;
     display: inline;
+    
 }
 
 .search-bar button {
@@ -48,6 +47,7 @@ body {
     color: #fff;
     cursor: pointer;
     display: inline;
+    
 }
 
 .menu {
@@ -215,6 +215,8 @@ footer {
     background-color:  #195e4b;
     color: #fff;
     border: none;
+    margin-right: 10%;
+    position: relative;
 }
 #theme-button:hover{
     background-color: rgb(1, 1, 12);

@@ -11,6 +11,66 @@ const recetas = [
         tiempoPreparacion: "45 minutos",
         url: '../Pages/Arroz_con_pollo.html'
     },
+    {
+        nombre: "Cebollitas francesas glaseadas",
+        imagen: "../images/Guarniciones/cebollitas-francesas-glaseadas.webp",
+        tiempoPreparacion: "30 minutos",
+        url: '../Pages/Arroz_con_pollo.html'
+    },
+    {
+        nombre: "Champignones salteados con jamon y ajo",
+        imagen: "../images/Guarniciones/champinones-salteados-con-jamon-y-ajo.webp",
+        tiempoPreparacion: "45 minutos",
+        url: '../Pages/Arroz_con_pollo.html'
+    },
+    {
+        nombre: "Cebollitas francesas glaseadas",
+        imagen: "../images/Guarniciones/cebollitas-francesas-glaseadas.webp",
+        tiempoPreparacion: "30 minutos",
+        url: '../Pages/Arroz_con_pollo.html'
+    },
+    {
+        nombre: "Champignones salteados con jamon y ajo",
+        imagen: "../images/Guarniciones/champinones-salteados-con-jamon-y-ajo.webp",
+        tiempoPreparacion: "45 minutos",
+        url: '../Pages/Arroz_con_pollo.html'
+    },
+    {
+        nombre: "Cebollitas francesas glaseadas",
+        imagen: "../images/Guarniciones/cebollitas-francesas-glaseadas.webp",
+        tiempoPreparacion: "30 minutos",
+        url: '../Pages/Arroz_con_pollo.html'
+    },
+    {
+        nombre: "Champignones salteados con jamon y ajo",
+        imagen: "../images/Guarniciones/champinones-salteados-con-jamon-y-ajo.webp",
+        tiempoPreparacion: "45 minutos",
+        url: '../Pages/Arroz_con_pollo.html'
+    },
+    {
+        nombre: "Cebollitas francesas glaseadas",
+        imagen: "../images/Guarniciones/cebollitas-francesas-glaseadas.webp",
+        tiempoPreparacion: "30 minutos",
+        url: '../Pages/Arroz_con_pollo.html'
+    },
+    {
+        nombre: "Champignones salteados con jamon y ajo",
+        imagen: "../images/Guarniciones/champinones-salteados-con-jamon-y-ajo.webp",
+        tiempoPreparacion: "45 minutos",
+        url: '../Pages/Arroz_con_pollo.html'
+    },
+    {
+        nombre: "Cebollitas francesas glaseadas",
+        imagen: "../images/Guarniciones/cebollitas-francesas-glaseadas.webp",
+        tiempoPreparacion: "30 minutos",
+        url: '../Pages/Arroz_con_pollo.html'
+    },
+    {
+        nombre: "Champignones salteados con jamon y ajo",
+        imagen: "../images/Guarniciones/champinones-salteados-con-jamon-y-ajo.webp",
+        tiempoPreparacion: "45 minutos",
+        url: '../Pages/Arroz_con_pollo.html'
+    }
     // mas recetas
 ];
 document.addEventListener("DOMContentLoaded", function() {

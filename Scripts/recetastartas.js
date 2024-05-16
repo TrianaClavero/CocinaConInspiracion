@@ -11,6 +11,66 @@ const recetas = [
         tiempoPreparacion: "45 minutos",
         url: '../Pages/Arroz_con_pollo.html'
     },
+    {
+        nombre: "Tarta de atun",
+        imagen: "../images/Tartas/tarta-de-atun.webp",
+        tiempoPreparacion: "30 minutos",
+        url: '../Pages/Arroz_con_pollo.html'
+    },
+    {
+        nombre: "Tarta de pollo",
+        imagen: "../images/Tartas/tarta-de-pollo.webp",
+        tiempoPreparacion: "45 minutos",
+        url: '../Pages/Arroz_con_pollo.html'
+    },
+    {
+        nombre: "Tarta de atun",
+        imagen: "../images/Tartas/tarta-de-atun.webp",
+        tiempoPreparacion: "30 minutos",
+        url: '../Pages/Arroz_con_pollo.html'
+    },
+    {
+        nombre: "Tarta de pollo",
+        imagen: "../images/Tartas/tarta-de-pollo.webp",
+        tiempoPreparacion: "45 minutos",
+        url: '../Pages/Arroz_con_pollo.html'
+    },
+    {
+        nombre: "Tarta de atun",
+        imagen: "../images/Tartas/tarta-de-atun.webp",
+        tiempoPreparacion: "30 minutos",
+        url: '../Pages/Arroz_con_pollo.html'
+    },
+    {
+        nombre: "Tarta de pollo",
+        imagen: "../images/Tartas/tarta-de-pollo.webp",
+        tiempoPreparacion: "45 minutos",
+        url: '../Pages/Arroz_con_pollo.html'
+    },
+    {
+        nombre: "Tarta de atun",
+        imagen: "../images/Tartas/tarta-de-atun.webp",
+        tiempoPreparacion: "30 minutos",
+        url: '../Pages/Arroz_con_pollo.html'
+    },
+    {
+        nombre: "Tarta de pollo",
+        imagen: "../images/Tartas/tarta-de-pollo.webp",
+        tiempoPreparacion: "45 minutos",
+        url: '../Pages/Arroz_con_pollo.html'
+    },
+    {
+        nombre: "Tarta de atun",
+        imagen: "../images/Tartas/tarta-de-atun.webp",
+        tiempoPreparacion: "30 minutos",
+        url: '../Pages/Arroz_con_pollo.html'
+    },
+    {
+        nombre: "Tarta de pollo",
+        imagen: "../images/Tartas/tarta-de-pollo.webp",
+        tiempoPreparacion: "45 minutos",
+        url: '../Pages/Arroz_con_pollo.html'
+    }
     // mas recetas
 ];
 document.addEventListener("DOMContentLoaded", function() {
