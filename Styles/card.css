@@ -45,6 +45,7 @@ h2 {
 .card h3 {
     padding: 10px;
     font-size: 1.2em;
+    position: relative;
+    
 }
-
 
