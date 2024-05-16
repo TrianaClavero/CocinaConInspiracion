@@ -12,10 +12,10 @@ body {
 #theme-button{
     border-radius: 10px;
     padding: 0.5em;
-    background-color:  #195e4b;
+    background-color: #f47121;
     color: white;
     border: none;
     margin-right: 10%;
     position: relative;
-    border: solid 2px black;
+    border: solid 2px white;
 }
