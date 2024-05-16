@@ -159,7 +159,8 @@ function mostrarResultadosBusqueda(filteredFoods) {
             card.appendChild(detailsRecipe);
                     
             // Agrega la tarjeta de receta al contenedor de recetas
-            recipesContainer.appendChild(card);
+            resultadosBusqueda.appendChild(card);
+            resultadosBusqueda.classList.remove('oculto')
             });
     }
 }
