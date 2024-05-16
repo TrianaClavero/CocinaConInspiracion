@@ -15,8 +15,8 @@
     align-items: center;
     padding: 20px;
     border-radius: 10px;
-    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
-    background-color: #fff;
+    box-shadow: 0 4px 8px var(--color-shadow);
+    background-color: var(--color-primary);
 }
 
 .card-receta img {
@@ -28,6 +28,7 @@
 
 .details-recipe {
     flex: 1;
+    color: var(--text-color);
 }
 
 .details-recipe h2 {

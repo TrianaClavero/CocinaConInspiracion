@@ -1,6 +1,6 @@
 body {
     font-family: Arial, sans-serif;
-    background-color: #fff7f0;
+    background-color: var(--color-primary);
 }
 
 .title{
@@ -39,7 +39,7 @@ body {
 }
 
 h1, h2 {
-    color: #333;
+    color: var(--color-text);
 }
 
 ul, ol {

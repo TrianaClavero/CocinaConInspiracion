@@ -3,15 +3,17 @@ function cambiarTema() {
     const newTheme = currentTheme === 'lightmode' ? 'darkmode' : 'lightmode';
     document.getElementById('theme-link').href = `../Styles/${newTheme}.css`;
     sessionStorage.setItem('theme', newTheme);
-    document.getElementById('theme-button').textContent = newTheme === 'darkmode' ? 'Cambiar a modo claro' : 'Cambiar a modo oscuro';
+    aplicarTema(newTheme);
 }
 
-// Inicializar el tema al cargar la página
+function aplicarTema(theme) {
+    document.getElementById('theme-link').href = `../Styles/${theme}.css`;
+    document.getElementById('theme-button').textContent = theme === 'darkmode' ? 'Cambiar a modo claro' : 'Cambiar a modo oscuro';
+    }
+
+document.getElementById('theme-button').addEventListener('click', cambiarTema);
+
 document.addEventListener('DOMContentLoaded', () => {
     const currentTheme = sessionStorage.getItem('theme') || 'lightmode';
-    document.getElementById('theme-link').href = `../Styles/${newTheme}.css`;
-    document.getElementById('theme-button').textContent = currentTheme === 'darkmode' ? 'Cambiar a modo claro' : 'Cambiar a modo oscuro';
+    aplicarTema(currentTheme);
 });
-
-// Asignar el evento de clic al botón
-document.getElementById('theme-button').addEventListener('click', cambiarTema);
