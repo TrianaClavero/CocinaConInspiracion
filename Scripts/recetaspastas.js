@@ -11,6 +11,66 @@ const recetas = [
         tiempoPreparacion: "45 minutos",
         url: '../Pages/Arroz_con_pollo.html'
     },
+    {
+        nombre: "Pasta a la carbonara",
+        imagen: "../images/Pastas/pasta-a-la-carbonara.jpg",
+        tiempoPreparacion: "30 minutos",
+        url: '../Pages/Arroz_con_pollo.html'
+    },
+    {
+        nombre: "Sorrentinos de jamon y queso",
+        imagen: "../images/Pastas/Sorrentinos-rellenos-de-jamon-y-queso.jpg",
+        tiempoPreparacion: "45 minutos",
+        url: '../Pages/Arroz_con_pollo.html'
+    },
+    {
+        nombre: "Pasta a la carbonara",
+        imagen: "../images/Pastas/pasta-a-la-carbonara.jpg",
+        tiempoPreparacion: "30 minutos",
+        url: '../Pages/Arroz_con_pollo.html'
+    },
+    {
+        nombre: "Sorrentinos de jamon y queso",
+        imagen: "../images/Pastas/Sorrentinos-rellenos-de-jamon-y-queso.jpg",
+        tiempoPreparacion: "45 minutos",
+        url: '../Pages/Arroz_con_pollo.html'
+    },
+    {
+        nombre: "Pasta a la carbonara",
+        imagen: "../images/Pastas/pasta-a-la-carbonara.jpg",
+        tiempoPreparacion: "30 minutos",
+        url: '../Pages/Arroz_con_pollo.html'
+    },
+    {
+        nombre: "Sorrentinos de jamon y queso",
+        imagen: "../images/Pastas/Sorrentinos-rellenos-de-jamon-y-queso.jpg",
+        tiempoPreparacion: "45 minutos",
+        url: '../Pages/Arroz_con_pollo.html'
+    },
+    {
+        nombre: "Pasta a la carbonara",
+        imagen: "../images/Pastas/pasta-a-la-carbonara.jpg",
+        tiempoPreparacion: "30 minutos",
+        url: '../Pages/Arroz_con_pollo.html'
+    },
+    {
+        nombre: "Sorrentinos de jamon y queso",
+        imagen: "../images/Pastas/Sorrentinos-rellenos-de-jamon-y-queso.jpg",
+        tiempoPreparacion: "45 minutos",
+        url: '../Pages/Arroz_con_pollo.html'
+    },
+    {
+        nombre: "Pasta a la carbonara",
+        imagen: "../images/Pastas/pasta-a-la-carbonara.jpg",
+        tiempoPreparacion: "30 minutos",
+        url: '../Pages/Arroz_con_pollo.html'
+    },
+    {
+        nombre: "Sorrentinos de jamon y queso",
+        imagen: "../images/Pastas/Sorrentinos-rellenos-de-jamon-y-queso.jpg",
+        tiempoPreparacion: "45 minutos",
+        url: '../Pages/Arroz_con_pollo.html'
+    }
     // mas recetas
 ];
 document.addEventListener("DOMContentLoaded", function() {
