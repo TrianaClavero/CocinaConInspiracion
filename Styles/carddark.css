@@ -1,7 +1,0 @@
-.card {
-    background-color: #3e3e3e;
-    border-radius: 10px;
-    box-shadow: 0 2px 4px rgba(255, 254, 254, 0.1);
-    overflow: hidden;
-    transition: transform 0.3s ease;
-}
