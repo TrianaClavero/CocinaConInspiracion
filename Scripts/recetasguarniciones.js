@@ -70,7 +70,7 @@ const recetas = [
         imagen: "../images/Guarniciones/champinones-salteados-con-jamon-y-ajo.webp",
         tiempoPreparacion: "45 minutos",
         url: '../Pages/Arroz_con_pollo.html'
-    }
+    },
     // mas recetas
 ];
 document.addEventListener("DOMContentLoaded", function() {
