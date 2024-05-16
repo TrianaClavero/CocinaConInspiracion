@@ -24,24 +24,25 @@ body {
 
 .search-bar {
     margin: 1em;
-    background-color: #f47121;
+    background-color: #195e4b;
     padding: 0.5em;
     border: solid 1px white;
-    border-radius: 15px;
+    border-radius: 20px;
+    
 }
 
 .search-bar input {
     width: 80%;
     padding: 0.5em;
     border: none;
-    border-radius: 5px;
+    border-radius: 10px;
     outline: none;
     display: inline;
 }
 
 .search-bar button {
     padding: 0.5em;
-    background-color: #f47121;
+    background-color: #195e4b;
     border: none;
     border-radius: 5px;
     color: #fff;
@@ -207,4 +208,15 @@ footer {
     .menu-icon:before {
         content: none;
     }
+}
+#theme-button{
+    border-radius: 10px;
+    padding: 0.5em;
+    background-color:  #195e4b;
+    color: #fff;
+    border: none;
+}
+#theme-button:hover{
+    background-color: rgb(1, 1, 12);
+    color: #f47121;
 }
