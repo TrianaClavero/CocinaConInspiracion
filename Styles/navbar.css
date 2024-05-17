@@ -175,6 +175,10 @@ footer {
     .menu-icon:before {
         content: none;
     }
+
+    .menu-toggle:checked + .menu-icon:before {
+        content: none;
+    }
 }
 
 
