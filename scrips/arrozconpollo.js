@@ -1,7 +1,7 @@
 document.addEventListener('DOMContentLoaded', () => {
     const receta = {
         nombre: "Arroz con pollo",
-        imagen: "../images/Arroz/arroz-con-pollo.jpg",
+        imagen: "images/Arroz/arroz-con-pollo.jpg",
         tiempoPreparacion: "30 minutos",
         ingredientes: [
             "200 gr de arroz",
@@ -21,7 +21,7 @@ document.addEventListener('DOMContentLoaded', () => {
             "Salpimentar a gusto y una vez que el pollo esté cocido agregar el arroz con el caldo, el puré de tomate y las arvejas.",
             "Dejar cocinar durante 18 minutos a fuego medio y evitar que se seque agregando más caldo si es necesario."
         ],
-        url: '../Pages/Arroz_con_pollo.html'
+        url: 'arroz_con_pollo.html'
     };
     const recetaContainer = document.getElementById('receta');
     

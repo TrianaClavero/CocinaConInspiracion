@@ -1,75 +1,75 @@
 const recetas = [
     {
         nombre: "Estofado de carne",
-        imagen: "../images/Carnes/estofado-de-carne.jpg",
+        imagen: "images/Carnes/estofado-de-carne.jpg",
         tiempoPreparacion: "30 minutos",
-        url: '../Pages/Arroz_con_pollo.html'
+        url: 'arroz_con_pollo.html'
     },
     {
         nombre: "Kebab de carne con hierbas",
-        imagen: "../images/Carnes/Kebab-de-carne-con-hierbas.avif",
+        imagen: "images/Carnes/Kebab-de-carne-con-hierbas.avif",
         tiempoPreparacion: "45 minutos",
-        url: '../Pages/Arroz_con_pollo.html'
+        url: 'arroz_con_pollo.html'
     },
     {
         nombre: "Estofado de carne",
-        imagen: "../images/Carnes/estofado-de-carne.jpg",
+        imagen: "images/Carnes/estofado-de-carne.jpg",
         tiempoPreparacion: "30 minutos",
-        url: '../Pages/Arroz_con_pollo.html'
+        url: 'arroz_con_pollo.html'
     },
     {
         nombre: "Kebab de carne con hierbas",
-        imagen: "../images/Carnes/Kebab-de-carne-con-hierbas.avif",
+        imagen: "images/Carnes/Kebab-de-carne-con-hierbas.avif",
         tiempoPreparacion: "45 minutos",
-        url: '../Pages/Arroz_con_pollo.html'
+        url: 'arroz_con_pollo.html'
     },
     {
         nombre: "Estofado de carne",
-        imagen: "../images/Carnes/estofado-de-carne.jpg",
+        imagen: "images/Carnes/estofado-de-carne.jpg",
         tiempoPreparacion: "30 minutos",
-        url: '../Pages/Arroz_con_pollo.html'
+        url: 'arroz_con_pollo.html'
     },
     {
         nombre: "Kebab de carne con hierbas",
-        imagen: "../images/Carnes/Kebab-de-carne-con-hierbas.avif",
+        imagen: "images/Carnes/Kebab-de-carne-con-hierbas.avif",
         tiempoPreparacion: "45 minutos",
-        url: '../Pages/Arroz_con_pollo.html'
+        url: 'arroz_con_pollo.html'
     },
     {
         nombre: "Estofado de carne",
-        imagen: "../images/Carnes/estofado-de-carne.jpg",
+        imagen: "images/Carnes/estofado-de-carne.jpg",
         tiempoPreparacion: "30 minutos",
         url: '../Pages/Arroz_con_pollo.html'
     },
     {
         nombre: "Kebab de carne con hierbas",
-        imagen: "../images/Carnes/Kebab-de-carne-con-hierbas.avif",
+        imagen: "images/Carnes/Kebab-de-carne-con-hierbas.avif",
         tiempoPreparacion: "45 minutos",
-        url: '../Pages/Arroz_con_pollo.html'
+        url: 'arroz_con_pollo.html'
     },
     {
         nombre: "Estofado de carne",
-        imagen: "../images/Carnes/estofado-de-carne.jpg",
+        imagen: "images/Carnes/estofado-de-carne.jpg",
         tiempoPreparacion: "30 minutos",
-        url: '../Pages/Arroz_con_pollo.html'
+        url: 'arroz_con_pollo.html'
     },
     {
         nombre: "Kebab de carne con hierbas",
-        imagen: "../images/Carnes/Kebab-de-carne-con-hierbas.avif",
+        imagen: "images/Carnes/Kebab-de-carne-con-hierbas.avif",
         tiempoPreparacion: "45 minutos",
-        url: '../Pages/Arroz_con_pollo.html'
+        url: 'arroz_con_pollo.html'
     },
     {
         nombre: "Estofado de carne",
-        imagen: "../images/Carnes/estofado-de-carne.jpg",
+        imagen: "images/Carnes/estofado-de-carne.jpg",
         tiempoPreparacion: "30 minutos",
-        url: '../Pages/Arroz_con_pollo.html'
+        url: 'arroz_con_pollo.html'
     },
     {
         nombre: "Kebab de carne con hierbas",
-        imagen: "../images/Carnes/Kebab-de-carne-con-hierbas.avif",
+        imagen: "images/Carnes/Kebab-de-carne-con-hierbas.avif",
         tiempoPreparacion: "45 minutos",
-        url: '../Pages/Arroz_con_pollo.html'
+        url: 'arroz_con_pollo.html'
     }
     // mas recetas
 ];

@@ -1,75 +1,75 @@
 const recetas = [
     {
-        nombre: "Pasta a la carbonara",
-        imagen: "../images/Pastas/pasta-a-la-carbonara.jpg",
+        nombre: "Pan de leche",
+        imagen: "images/Panaderia y pasteleria/pan-de-leche.jpg",
         tiempoPreparacion: "30 minutos",
-        url: '../Pages/Arroz_con_pollo.html'
+        url: 'arroz_con_pollo.html'
     },
     {
-        nombre: "Sorrentinos de jamon y queso",
-        imagen: "../images/Pastas/Sorrentinos-rellenos-de-jamon-y-queso.jpg",
+        nombre: "Torta oreo",
+        imagen: "images/Panaderia y pasteleria/torta-oreo.webp",
         tiempoPreparacion: "45 minutos",
-        url: '../Pages/Arroz_con_pollo.html'
+        url: 'arroz_con_pollo.html'
     },
     {
-        nombre: "Pasta a la carbonara",
-        imagen: "../images/Pastas/pasta-a-la-carbonara.jpg",
+        nombre: "Pan de leche",
+        imagen: "images/Panaderia y pasteleria/pan-de-leche.jpg",
         tiempoPreparacion: "30 minutos",
-        url: '../Pages/Arroz_con_pollo.html'
+        url: 'arroz_con_pollo.html'
     },
     {
-        nombre: "Sorrentinos de jamon y queso",
-        imagen: "../images/Pastas/Sorrentinos-rellenos-de-jamon-y-queso.jpg",
+        nombre: "Torta oreo",
+        imagen: "images/Panaderia y pasteleria/torta-oreo.webp",
         tiempoPreparacion: "45 minutos",
-        url: '../Pages/Arroz_con_pollo.html'
+        url: 'arroz_con_pollo.html'
     },
     {
-        nombre: "Pasta a la carbonara",
-        imagen: "../images/Pastas/pasta-a-la-carbonara.jpg",
+        nombre: "Pan de leche",
+        imagen: "images/Panaderia y pasteleria/pan-de-leche.jpg",
         tiempoPreparacion: "30 minutos",
-        url: '../Pages/Arroz_con_pollo.html'
+        url: 'arroz_con_pollo.html'
     },
     {
-        nombre: "Sorrentinos de jamon y queso",
-        imagen: "../images/Pastas/Sorrentinos-rellenos-de-jamon-y-queso.jpg",
+        nombre: "Torta oreo",
+        imagen: "images/Panaderia y pasteleria/torta-oreo.webp",
         tiempoPreparacion: "45 minutos",
-        url: '../Pages/Arroz_con_pollo.html'
+        url: 'arroz_con_pollo.html'
     },
     {
-        nombre: "Pasta a la carbonara",
-        imagen: "../images/Pastas/pasta-a-la-carbonara.jpg",
+        nombre: "Pan de leche",
+        imagen: "images/Panaderia y pasteleria/pan-de-leche.jpg",
         tiempoPreparacion: "30 minutos",
-        url: '../Pages/Arroz_con_pollo.html'
+        url: 'arroz_con_pollo.html'
     },
     {
-        nombre: "Sorrentinos de jamon y queso",
-        imagen: "../images/Pastas/Sorrentinos-rellenos-de-jamon-y-queso.jpg",
+        nombre: "Torta oreo",
+        imagen: "images/Panaderia y pasteleria/torta-oreo.webp",
         tiempoPreparacion: "45 minutos",
-        url: '../Pages/Arroz_con_pollo.html'
+        url: 'arroz_con_pollo.html'
     },
     {
-        nombre: "Pasta a la carbonara",
-        imagen: "../images/Pastas/pasta-a-la-carbonara.jpg",
+        nombre: "Pan de leche",
+        imagen: "images/Panaderia y pasteleria/pan-de-leche.jpg",
         tiempoPreparacion: "30 minutos",
-        url: '../Pages/Arroz_con_pollo.html'
+        url: 'arroz_con_pollo.html'
     },
     {
-        nombre: "Sorrentinos de jamon y queso",
-        imagen: "../images/Pastas/Sorrentinos-rellenos-de-jamon-y-queso.jpg",
+        nombre: "Torta oreo",
+        imagen: "images/Panaderia y pasteleria/torta-oreo.webp",
         tiempoPreparacion: "45 minutos",
-        url: '../Pages/Arroz_con_pollo.html'
+        url: 'arroz_con_pollo.html'
     },
     {
-        nombre: "Pasta a la carbonara",
-        imagen: "../images/Pastas/pasta-a-la-carbonara.jpg",
+        nombre: "Pan de leche",
+        imagen: "images/Panaderia y pasteleria/pan-de-leche.jpg",
         tiempoPreparacion: "30 minutos",
-        url: '../Pages/Arroz_con_pollo.html'
+        url: 'arroz_con_pollo.html'
     },
     {
-        nombre: "Sorrentinos de jamon y queso",
-        imagen: "../images/Pastas/Sorrentinos-rellenos-de-jamon-y-queso.jpg",
+        nombre: "Torta oreo",
+        imagen: "images/Panaderia y pasteleria/torta-oreo.webp",
         tiempoPreparacion: "45 minutos",
-        url: '../Pages/Arroz_con_pollo.html'
+        url: 'arroz_con_pollo.html'
     }
     // mas recetas
 ];

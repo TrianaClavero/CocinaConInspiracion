@@ -1,75 +1,75 @@
 const recetas = [
     {
         nombre: "Brownie de limon o limonie",
-        imagen: "../images/Dulces y postres/brownie-de-limon-o-lemonie.webp",
+        imagen: "images/Dulces y postres/brownie-de-limon-o-lemonie.webp",
         tiempoPreparacion: "30 minutos",
-        url: '../Pages/Arroz_con_pollo.html'
+        url: 'arroz_con_pollo.html'
     },
     {
         nombre: "Budin de zanahoria",
-        imagen: "../images/Dulces y postres/Budin-de-zanahoria.avif",
+        imagen: "images/Dulces y postres/Budin-de-zanahoria.avif",
         tiempoPreparacion: "45 minutos",
-        url: '../Pages/Arroz_con_pollo.html'
+        url: 'arroz_con_pollo.html'
     },
     {
         nombre: "Brownie de limon o limonie",
-        imagen: "../images/Dulces y postres/brownie-de-limon-o-lemonie.webp",
+        imagen: "images/Dulces y postres/brownie-de-limon-o-lemonie.webp",
         tiempoPreparacion: "30 minutos",
-        url: '../Pages/Arroz_con_pollo.html'
+        url: 'arroz_con_pollo.html'
     },
     {
         nombre: "Budin de zanahoria",
-        imagen: "../images/Dulces y postres/Budin-de-zanahoria.avif",
+        imagen: "images/Dulces y postres/Budin-de-zanahoria.avif",
         tiempoPreparacion: "45 minutos",
-        url: '../Pages/Arroz_con_pollo.html'
+        url: 'arroz_con_pollo.html'
     },
     {
         nombre: "Brownie de limon o limonie",
-        imagen: "../images/Dulces y postres/brownie-de-limon-o-lemonie.webp",
+        imagen: "images/Dulces y postres/brownie-de-limon-o-lemonie.webp",
         tiempoPreparacion: "30 minutos",
-        url: '../Pages/Arroz_con_pollo.html'
+        url: 'arroz_con_pollo.html'
     },
     {
         nombre: "Budin de zanahoria",
-        imagen: "../images/Dulces y postres/Budin-de-zanahoria.avif",
+        imagen: "images/Dulces y postres/Budin-de-zanahoria.avif",
         tiempoPreparacion: "45 minutos",
-        url: '../Pages/Arroz_con_pollo.html'
+        url: 'arroz_con_pollo.html'
     },
     {
         nombre: "Brownie de limon o limonie",
-        imagen: "../images/Dulces y postres/brownie-de-limon-o-lemonie.webp",
+        imagen: "images/Dulces y postres/brownie-de-limon-o-lemonie.webp",
         tiempoPreparacion: "30 minutos",
-        url: '../Pages/Arroz_con_pollo.html'
+        url: 'arroz_con_pollo.html'
     },
     {
         nombre: "Budin de zanahoria",
-        imagen: "../images/Dulces y postres/Budin-de-zanahoria.avif",
+        imagen: "images/Dulces y postres/Budin-de-zanahoria.avif",
         tiempoPreparacion: "45 minutos",
-        url: '../Pages/Arroz_con_pollo.html'
+        url: 'arroz_con_pollo.html'
     },
     {
         nombre: "Brownie de limon o limonie",
-        imagen: "../images/Dulces y postres/brownie-de-limon-o-lemonie.webp",
+        imagen: "images/Dulces y postres/brownie-de-limon-o-lemonie.webp",
         tiempoPreparacion: "30 minutos",
-        url: '../Pages/Arroz_con_pollo.html'
+        url: 'arroz_con_pollo.html'
     },
     {
         nombre: "Budin de zanahoria",
-        imagen: "../images/Dulces y postres/Budin-de-zanahoria.avif",
+        imagen: "images/Dulces y postres/Budin-de-zanahoria.avif",
         tiempoPreparacion: "45 minutos",
-        url: '../Pages/Arroz_con_pollo.html'
+        url: 'arroz_con_pollo.html'
     },
     {
         nombre: "Brownie de limon o limonie",
-        imagen: "../images/Dulces y postres/brownie-de-limon-o-lemonie.webp",
+        imagen: "images/Dulces y postres/brownie-de-limon-o-lemonie.webp",
         tiempoPreparacion: "30 minutos",
-        url: '../Pages/Arroz_con_pollo.html'
+        url: 'arroz_con_pollo.html'
     },
     {
         nombre: "Budin de zanahoria",
-        imagen: "../images/Dulces y postres/Budin-de-zanahoria.avif",
+        imagen: "images/Dulces y postres/Budin-de-zanahoria.avif",
         tiempoPreparacion: "45 minutos",
-        url: '../Pages/Arroz_con_pollo.html'
+        url: 'arroz_con_pollo.html'
     }
     // mas recetas
 ];

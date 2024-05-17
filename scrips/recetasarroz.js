@@ -1,75 +1,75 @@
 const recetas = [
     {
         nombre: "Arroz con pollo",
-        imagen: "../images/Arroz/arroz-con-pollo.jpg",
+        imagen: "images/Arroz/arroz-con-pollo.jpg",
         tiempoPreparacion: "30 minutos",
-        url: '../Pages/Arroz_con_pollo.html'
+        url: 'arroz_con_pollo.html'
     },
     {
         nombre: "Arroz frito con camarones",
-        imagen: "../images/Arroz/arroz-frito-con-camarones.jpg",
+        imagen: "images/Arroz/arroz-frito-con-camarones.jpg",
         tiempoPreparacion: "45 minutos",
-        url: '../Pages/Arroz_con_pollo.html'
+        url: 'arroz_con_pollo.html'
     },
     {
         nombre: "Arroz con pollo",
-        imagen: "../images/Arroz/arroz-con-pollo.jpg",
+        imagen: "images/Arroz/arroz-con-pollo.jpg",
         tiempoPreparacion: "30 minutos",
-        url: '../Pages/Arroz_con_pollo.html'
+        url: 'arroz_con_pollo.html'
     },
     {
         nombre: "Arroz frito con camarones",
-        imagen: "../images/Arroz/arroz-frito-con-camarones.jpg",
+        imagen: "images/Arroz/arroz-frito-con-camarones.jpg",
         tiempoPreparacion: "45 minutos",
-        url: '../Pages/Arroz_con_pollo.html'
+        url: 'arroz_con_pollo.html'
     },
     {
         nombre: "Arroz con pollo",
-        imagen: "../images/Arroz/arroz-con-pollo.jpg",
+        imagen: "images/Arroz/arroz-con-pollo.jpg",
         tiempoPreparacion: "30 minutos",
-        url: '../Pages/Arroz_con_pollo.html'
+        url: 'arroz_con_pollo.html'
     },
     {
         nombre: "Arroz frito con camarones",
-        imagen: "../images/Arroz/arroz-frito-con-camarones.jpg",
+        imagen: "images/Arroz/arroz-frito-con-camarones.jpg",
         tiempoPreparacion: "45 minutos",
-        url: '../Pages/Arroz_con_pollo.html'
-    },
-    {
-        nombre: "Arroz con pollo",
-        imagen: "../images/Arroz/arroz-con-pollo.jpg",
-        tiempoPreparacion: "30 minutos",
-        url: '../Pages/Arroz_con_pollo.html'
+        url: 'arroz_con_pollo.html'
     },
     {
         nombre: "Arroz frito con camarones",
-        imagen: "../images/Arroz/arroz-frito-con-camarones.jpg",
+        imagen: "images/Arroz/arroz-frito-con-camarones.jpg",
         tiempoPreparacion: "45 minutos",
-        url: '../Pages/Arroz_con_pollo.html'
-    },
-    {
-        nombre: "Arroz con pollo",
-        imagen: "../images/Arroz/arroz-con-pollo.jpg",
-        tiempoPreparacion: "30 minutos",
-        url: '../Pages/Arroz_con_pollo.html'
+        url: 'arroz_con_pollo.html'
     },
     {
         nombre: "Arroz frito con camarones",
-        imagen: "../images/Arroz/arroz-frito-con-camarones.jpg",
+        imagen: "images/Arroz/arroz-frito-con-camarones.jpg",
         tiempoPreparacion: "45 minutos",
-        url: '../Pages/Arroz_con_pollo.html'
-    },
-    {
-        nombre: "Arroz con pollo",
-        imagen: "../images/Arroz/arroz-con-pollo.jpg",
-        tiempoPreparacion: "30 minutos",
-        url: '../Pages/Arroz_con_pollo.html'
+        url: 'arroz_con_pollo.html'
     },
     {
         nombre: "Arroz frito con camarones",
-        imagen: "../images/Arroz/arroz-frito-con-camarones.jpg",
+        imagen: "images/Arroz/arroz-frito-con-camarones.jpg",
         tiempoPreparacion: "45 minutos",
-        url: '../Pages/Arroz_con_pollo.html'
+        url: 'arroz_con_pollo.html'
+    },
+    {
+        nombre: "Arroz frito con camarones",
+        imagen: "images/Arroz/arroz-frito-con-camarones.jpg",
+        tiempoPreparacion: "45 minutos",
+        url: 'arroz_con_pollo.html'
+    },
+    {
+        nombre: "Arroz frito con camarones",
+        imagen: "images/Arroz/arroz-frito-con-camarones.jpg",
+        tiempoPreparacion: "45 minutos",
+        url: 'arroz_con_pollo.html'
+    },
+    {
+        nombre: "Arroz frito con camarones",
+        imagen: "images/Arroz/arroz-frito-con-camarones.jpg",
+        tiempoPreparacion: "45 minutos",
+        url: 'arroz_con_pollo.html'
     }
     // mas recetas
 ];
