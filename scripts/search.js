@@ -1,7 +1,7 @@
 const foods = [
     {
         nombre: 'Arroz con pollo',
-        img: '../images/Arroz/arroz-con-pollo.jpg',
+        img: 'images/Arroz/arroz-con-pollo.jpg',
         tiempoPreparacion: '30 min',
         ingredientes: ['arroz', 'pollo', 'caldo', 'morron', 'cebolla', 'ajo', 'pure de tomate', 'sal', 'pimienta']
 
@@ -9,94 +9,94 @@ const foods = [
 
     {
         nombre: 'Arroz Frito con Camarones',
-        img: '../images/Arroz/arroz-con-pollo.jpg',
+        img: 'images/Arroz/arroz-con-pollo.jpg',
         tiempoPreparacion: '30 min',
         ingredientes: ['aceite', 'camarones', 'ajo', 'cebolla de verdeo', 'jengibre', 'huevos', 'arvejas', 'arroz', 'salsa de soja']
     },
 
     {
         nombre: 'Estofado de carne: ',
-        img: '../images/Arroz/arroz-con-pollo.jpg',
+        img: 'images/Arroz/arroz-con-pollo.jpg',
         tiempoPreparacion: '30 min',
         ingredientes: ['Carne', 'tomate', 'morron', 'cebolla', 'ajo', 'vino', 'perejil', 'laurel', 'sal', 'pimienta']
     },
 
     {
         nombre: 'Kebab de carne con hierbas',
-        img: '../images/Arroz/arroz-con-pollo.jpg',
+        img: 'images/Arroz/arroz-con-pollo.jpg',
         tiempoPreparacion: '30 min',
         ingredientes: ['carne picada', 'perejil', 'ajo', 'sal', 'pimienta', 'comino', 'aceite'
         ]
     },
     {
         nombre: 'Pasta a la carbonara',
-        img: '../images/Arroz/arroz-con-pollo.jpg',
+        img: 'images/Arroz/arroz-con-pollo.jpg',
         tiempoPreparacion: '30 min',
         ingredientes: ['pasta', 'queso parmesano', 'yema de huevo', 'pimienta negra', 'panceta']
     },
     {
         nombre: 'Sorrentinos de jamon, queso y ricota',
-        img: '../images/Arroz/arroz-con-pollo.jpg',
+        img: 'images/Arroz/arroz-con-pollo.jpg',
         tiempoPreparacion: '30 min',
         ingredientes: ['harina', 'aceite', 'sal', 'huevo', 'jamin', 'ricota', 'queso rallado', 'mozzarella', 'pimienta', 'nuez moscada']
     },
     {
         nombre: 'Tarta de atun',
-        img: '../images/Arroz/arroz-con-pollo.jpg',
+        img: 'images/Arroz/arroz-con-pollo.jpg',
         tiempoPreparacion: '30 min',
         ingredientes: ['morron', 'cebolla', 'ajo', 'cebolla de verdeo', 'aceite de oliva', 'sal', 'pimienta', 'huevos', 'atun', 'queso rallado', 'tapas de tarta', 'pan rallado']
     },
     {
         nombre: 'Tarta de pollo',
-        img: '../images/Arroz/arroz-con-pollo.jpg',
+        img: 'images/Arroz/arroz-con-pollo.jpg',
         tiempoPreparacion: '30 min',
         ingredientes: ['pollo', 'sal', 'pimienta', 'zanahoria', 'morron', 'cebolla', 'cebolla de verdeo', 'ajo', 'aceite de oliva', 'huevos', 'queso rallado', 'tapas de tarta', 'pan rallado']
     },
     {
         nombre: 'Sandwich BLT',
-        img: '../images/Arroz/arroz-con-pollo.jpg',
+        img: 'images/Arroz/arroz-con-pollo.jpg',
         tiempoPreparacion: '30 min',
         ingredientes: ['bacon', 'pan', 'mayonesa', 'tomate', 'lechuga', 'sal' , 'pimienta', 'palta']
     },
     {
         nombre: 'Sandwich de pollo con salsa cesar',
-        img: '../images/Arroz/arroz-con-pollo.jpg',
+        img: 'images/Arroz/arroz-con-pollo.jpg',
         tiempoPreparacion: '30 min',
         ingredientes: ['pan', 'manteca', 'pollo', 'huevo', 'pan rallado', 'sal', 'pimienta', 'lechuga', 'queso parmesano', 'salsa cesar']
     },
     {
         nombre: 'Cebollitas francesas glaseadas',
-        img: '../images/Arroz/arroz-con-pollo.jpg',
+        img: 'images/Arroz/arroz-con-pollo.jpg',
         tiempoPreparacion: '30 min',
         ingredientes: [ 'cebollines', 'manteca', 'aceite de oliva', 'sal', 'azucar', 'vinagre', 'vino dulce', 'agua']
     },
     {
         nombre: ' Champiñones con jamón y ajo salteados',
-        img: '../images/Arroz/arroz-con-pollo.jpg',
+        img: 'images/Arroz/arroz-con-pollo.jpg',
         tiempoPreparacion: '30 min',
         ingredientes: ['champiñones', 'ajo', 'aceite de oliva', 'jamon serrano', 'pimienta', 'sal', 'perejil']
     },
     {
         nombre: 'Budin de zanahoria',
-        img: '../images/Arroz/arroz-con-pollo.jpg',
+        img: 'images/Arroz/arroz-con-pollo.jpg',
         tiempoPreparacion: '30 min',
         ingredientes: [ 'leche condensada', 'harina', 'zanahoria',' aceite', 'levadura quimica', 'huevos', 'canela', 'jengibre', 'nuez moscada']
     },
     {
         nombre: 'Brownie de limon',
-        img: '../images/Arroz/arroz-con-pollo.jpg',
+        img: 'images/Arroz/arroz-con-pollo.jpg',
         tiempoPreparacion: '30 min',
         ingredientes: ['manteca', 'azucar', 'huevos', 'harina', 'jugo de limon', 'ralladura de limon', 'limon', 'azucar glas']
     },
     {
         nombre: 'Pan de leche',
-        img: '../images/Arroz/arroz-con-pollo.jpg',
+        img: 'images/Arroz/arroz-con-pollo.jpg',
         tiempoPreparacion: '30 min',
         ingredientes: [ 'agua', 'levadura seca', 'leche', 'azucar', 'sal', 'manteca', 'harina']
     },
     {
         nombre: 'Torta Oreo',
-        img: '../images/Arroz/arroz-con-pollo.jpg',
+        img: 'images/Arroz/arroz-con-pollo.jpg',
         tiempoPreparacion: '30 min',
         ingredientes: [ 'oreos', 'manteca', 'gelatina', 'crema para batir', 'queso crema', 'azucar']
     }

@@ -1,13 +1,13 @@
 function cambiarTema() {
     const currentTheme = sessionStorage.getItem('theme') || 'lightmode';
     const newTheme = currentTheme === 'lightmode' ? 'darkmode' : 'lightmode';
-    document.getElementById('theme-link').href = `../Styles/${newTheme}.css`;
+    document.getElementById('theme-link').href = `styles/${newTheme}.css`;
     sessionStorage.setItem('theme', newTheme);
     aplicarTema(newTheme);
 }
 
 function aplicarTema(theme) {
-    document.getElementById('theme-link').href = `../Styles/${theme}.css`;
+    document.getElementById('theme-link').href = `styles/${theme}.css`;
     document.getElementById('theme-button').textContent = theme === 'darkmode' ? 'Cambiar a modo claro' : 'Cambiar a modo oscuro';
     }
 

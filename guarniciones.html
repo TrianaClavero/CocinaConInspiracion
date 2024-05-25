@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Recetas de Guarniciones</title>
+    <link id="theme-link" rel="stylesheet" href="styles/lightmode.css">
+    <link rel="stylesheet" href="styles/navbar.css">
+    <link rel="stylesheet" href="styles/recetas.css">
+  
+    <title>Arroz</title>
+</head>
+<body>
+      <!-- Inicio nav-bar -->
+  <nav class='navbar'>
+    <div class="logo">
+      <a href='index.html'>
+        <img src="assets/Logo.png" alt="Logo" id="logoimg">
+      </a>
+    </div>
+
+    <div class="search-bar">
+      <input type="text" placeholder="Buscar por ingredientes">
+      <button>🔎</button>
+    </div>
+
+    <div class="menu">
+      <input type="checkbox" id="menu-toggle" class="menu-toggle">
+      <label for="menu-toggle" class="menu-icon"></label>
+
+      <ul class="menu-list">
+        <li><a href="arroz.html">Arroz</a></li>
+        <li><a href="pastas.html">Pastas</a></li>
+        <li><a href="carnes.html">Carnes</a></li>
+        <li><a href="tartas.html">Tartas</a></li>
+        <li><a href="sandwiches.html">Sandwiches</a></li>
+        <li><a href="guarniciones.html">Guarniciones</a></li>
+        <li><a href="dulces_y_Postres.html">Dulces y Postres</a></li>
+        <li><a href="panaderia_y_Pasteleria.html">Panaderia y Pasteleria</a></li>
+      </ul>
+    </div>
+  </nav>
+  <div class="menu-overlay"></div>
+
+  <div id="recipes-container"></div>
+  
+  <!-- Fin nav-bar -->
+  <footer>
+    <div class="container">
+      <p>&copy; 2024 Recetas Deliciosas. Todos los derechos reservados.</p>
+    </div>
+  </footer>
+  <script src="scripts/aplicardarkmode.js"></script>
+  <script src="scripts/recetasguarniciones.js"></script>
+  <script src="scripts/navbar.js"></script>
+</body>
+</html>

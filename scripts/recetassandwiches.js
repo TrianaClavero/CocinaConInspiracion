@@ -1,75 +1,75 @@
 const recetas = [
     {
-        nombre: "Estofado de carne",
-        imagen: "../images/Carnes/estofado-de-carne.jpg",
+        nombre: "Sandwich BLT",
+        imagen: "images/Sandwiches/sandwich-blt.jpg",
         tiempoPreparacion: "30 minutos",
-        url: '../Pages/Arroz_con_pollo.html'
+        url: 'arroz_con_pollo.html'
     },
     {
-        nombre: "Kebab de carne con hierbas",
-        imagen: "../images/Carnes/Kebab-de-carne-con-hierbas.avif",
+        nombre: "Sandwich de pollo con salsa cesar",
+        imagen: "images/Sandwiches/sandwich-de-pollo-con-salsa-cesar.jpg",
         tiempoPreparacion: "45 minutos",
-        url: '../Pages/Arroz_con_pollo.html'
+        url: 'arroz_con_pollo.html'
     },
     {
-        nombre: "Estofado de carne",
-        imagen: "../images/Carnes/estofado-de-carne.jpg",
+        nombre: "Sandwich BLT",
+        imagen: "images/Sandwiches/sandwich-blt.jpg",
         tiempoPreparacion: "30 minutos",
-        url: '../Pages/Arroz_con_pollo.html'
+        url: 'arroz_con_pollo.html'
     },
     {
-        nombre: "Kebab de carne con hierbas",
-        imagen: "../images/Carnes/Kebab-de-carne-con-hierbas.avif",
+        nombre: "Sandwich de pollo con salsa cesar",
+        imagen: "images/Sandwiches/sandwich-de-pollo-con-salsa-cesar.jpg",
         tiempoPreparacion: "45 minutos",
-        url: '../Pages/Arroz_con_pollo.html'
+        url: 'arroz_con_pollo.html'
     },
     {
-        nombre: "Estofado de carne",
-        imagen: "../images/Carnes/estofado-de-carne.jpg",
+        nombre: "Sandwich BLT",
+        imagen: "images/Sandwiches/sandwich-blt.jpg",
         tiempoPreparacion: "30 minutos",
-        url: '../Pages/Arroz_con_pollo.html'
+        url: 'arroz_con_pollo.html'
     },
     {
-        nombre: "Kebab de carne con hierbas",
-        imagen: "../images/Carnes/Kebab-de-carne-con-hierbas.avif",
+        nombre: "Sandwich de pollo con salsa cesar",
+        imagen: "images/Sandwiches/sandwich-de-pollo-con-salsa-cesar.jpg",
         tiempoPreparacion: "45 minutos",
-        url: '../Pages/Arroz_con_pollo.html'
+        url: 'arroz_con_pollo.html'
     },
     {
-        nombre: "Estofado de carne",
-        imagen: "../images/Carnes/estofado-de-carne.jpg",
+        nombre: "Sandwich BLT",
+        imagen: "images/Sandwiches/sandwich-blt.jpg",
         tiempoPreparacion: "30 minutos",
-        url: '../Pages/Arroz_con_pollo.html'
+        url: 'arroz_con_pollo.html'
     },
     {
-        nombre: "Kebab de carne con hierbas",
-        imagen: "../images/Carnes/Kebab-de-carne-con-hierbas.avif",
+        nombre: "Sandwich de pollo con salsa cesar",
+        imagen: "images/Sandwiches/sandwich-de-pollo-con-salsa-cesar.jpg",
         tiempoPreparacion: "45 minutos",
-        url: '../Pages/Arroz_con_pollo.html'
+        url: 'arroz_con_pollo.html'
     },
     {
-        nombre: "Estofado de carne",
-        imagen: "../images/Carnes/estofado-de-carne.jpg",
+        nombre: "Sandwich BLT",
+        imagen: "images/Sandwiches/sandwich-blt.jpg",
         tiempoPreparacion: "30 minutos",
-        url: '../Pages/Arroz_con_pollo.html'
+        url: 'arroz_con_pollo.html'
     },
     {
-        nombre: "Kebab de carne con hierbas",
-        imagen: "../images/Carnes/Kebab-de-carne-con-hierbas.avif",
+        nombre: "Sandwich de pollo con salsa cesar",
+        imagen: "images/Sandwiches/sandwich-de-pollo-con-salsa-cesar.jpg",
         tiempoPreparacion: "45 minutos",
-        url: '../Pages/Arroz_con_pollo.html'
+        url: 'arroz_con_pollo.html'
     },
     {
-        nombre: "Estofado de carne",
-        imagen: "../images/Carnes/estofado-de-carne.jpg",
+        nombre: "Sandwich BLT",
+        imagen: "images/Sandwiches/sandwich-blt.jpg",
         tiempoPreparacion: "30 minutos",
-        url: '../Pages/Arroz_con_pollo.html'
+        url: 'arroz_con_pollo.html'
     },
     {
-        nombre: "Kebab de carne con hierbas",
-        imagen: "../images/Carnes/Kebab-de-carne-con-hierbas.avif",
+        nombre: "Sandwich de pollo con salsa cesar",
+        imagen: "images/Sandwiches/sandwich-de-pollo-con-salsa-cesar.jpg",
         tiempoPreparacion: "45 minutos",
-        url: '../Pages/Arroz_con_pollo.html'
+        url: 'arroz_con_pollo.html'
     }
     // mas recetas
 ];
