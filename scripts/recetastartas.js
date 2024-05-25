@@ -2,75 +2,75 @@ const recetas = [
     {
         nombre: "Tarta de atun",
         imagen: "images/Tartas/tarta-de-atun.webp",
-        tiempoPreparacion: "30 minutos",
-        url: 'arroz_con_pollo.html'
+        tiempoPreparacion: "60 minutos",
+        url: 'tarta_de_atun.html'
     },
     {
         nombre: "Tarta de pollo",
         imagen: "images/Tartas/tarta-de-pollo.webp",
-        tiempoPreparacion: "45 minutos",
-        url: 'arroz_con_pollo.html'
+        tiempoPreparacion: "1 hora y 20 minutos",
+        url: 'tarta_de_atun.html'
     },
     {
         nombre: "Tarta de atun",
         imagen: "images/Tartas/tarta-de-atun.webp",
-        tiempoPreparacion: "30 minutos",
-        url: 'arroz_con_pollo.html'
+        tiempoPreparacion: "60 minutos",
+        url: 'tarta_de_atun.html'
     },
     {
         nombre: "Tarta de pollo",
         imagen: "images/Tartas/tarta-de-pollo.webp",
-        tiempoPreparacion: "45 minutos",
-        url: 'arroz_con_pollo.html'
+        tiempoPreparacion: "1 hora y 20 minutos",
+        url: 'tarta_de_atun.html'
     },
     {
         nombre: "Tarta de atun",
         imagen: "images/Tartas/tarta-de-atun.webp",
-        tiempoPreparacion: "30 minutos",
-        url: 'arroz_con_pollo.html'
+        tiempoPreparacion: "60 minutos",
+        url: 'tarta_de_atun.html'
     },
     {
         nombre: "Tarta de pollo",
         imagen: "images/Tartas/tarta-de-pollo.webp",
-        tiempoPreparacion: "45 minutos",
-        url: 'arroz_con_pollo.html'
+        tiempoPreparacion: "1 hora y 20 minutos",
+        url: 'tarta_de_atun.html'
     },
     {
         nombre: "Tarta de atun",
         imagen: "images/Tartas/tarta-de-atun.webp",
-        tiempoPreparacion: "30 minutos",
-        url: 'arroz_con_pollo.html'
+        tiempoPreparacion: "60 minutos",
+        url: 'tarta_de_atun.html'
     },
     {
         nombre: "Tarta de pollo",
         imagen: "images/Tartas/tarta-de-pollo.webp",
-        tiempoPreparacion: "45 minutos",
-        url: 'arroz_con_pollo.html'
+        tiempoPreparacion: "1 hora y 20 minutos",
+        url: 'tarta_de_atun.html'
     },
     {
         nombre: "Tarta de atun",
         imagen: "images/Tartas/tarta-de-atun.webp",
-        tiempoPreparacion: "30 minutos",
-        url: 'arroz_con_pollo.html'
+        tiempoPreparacion: "60 minutos",
+        url: 'tarta_de_atun.html'
     },
     {
         nombre: "Tarta de pollo",
         imagen: "images/Tartas/tarta-de-pollo.webp",
-        tiempoPreparacion: "45 minutos",
-        url: 'arroz_con_pollo.html'
+        tiempoPreparacion: "1 hora y 20 minutos",
+        url: 'tarta_de_atun.html'
     },
     {
         nombre: "Tarta de atun",
         imagen: "images/Tartas/tarta-de-atun.webp",
-        tiempoPreparacion: "30 minutos",
-        url: 'arroz_con_pollo.html'
+        tiempoPreparacion: "60 minutos",
+        url: 'tarta_de_atun.html'
     },
     {
         nombre: "Tarta de pollo",
         imagen: "images/Tartas/tarta-de-pollo.webp",
-        tiempoPreparacion: "45 minutos",
-        url: 'arroz_con_pollo.html'
-    }
+        tiempoPreparacion: "1 hora y 20 minutos",
+        url: 'tarta_de_atun.html'
+    },
     // mas recetas
 ];
 document.addEventListener("DOMContentLoaded", function() {
