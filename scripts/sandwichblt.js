@@ -1,34 +1,27 @@
 document.addEventListener('DOMContentLoaded', () => {
     const receta = {
-        nombre: "Tarta de atún",
-        imagen: "images/Tartas/tarta-de-atun.webp",
-        tiempoPreparacion: "60 minutos",
+        nombre: "Sandwich BLT",
+        imagen: "images/Sandwiches/sandwich-blt.jpg",
+        tiempoPreparacion: "10 minutos",
         ingredientes: [
-            "400 gr de atún en conserva escurrido",
-            "Una cebolla grande",
-            "3 dientes de ajo",
-            "Un morron rojo",
-            "Un morron verde",
-            "Una cebolla de verdeo",
-            "4 huevos hervidos",
-            "2 Pascualinas (Tapas de tarta)",
-            "Un huevo batido para pintar",
+            "6 fetas de bacon ahumado",
+            "4 rebanadas de pan blanco",
+            "4 cucharadas de mayonesa",
+            "Un tomate",
+            "Hojas de lechuga a gusto",
+            "Rodajas finas de palta (opcional)",
             "Sal",
             "Pimienta"
         ],
         preparacion: [
-            "Cortar los pimientos, la cebolla y el ajo en cubitos pequeños.",
-            "En una sartén u olla, rehogar las verduras con un chorrito de aceite.",
-            "Cuando la cebolla esté transparente, apagar el fuego y agregar los huevos hervidos cortados en cubitos.",
-            "Salpimentar a gusto, incorporar el atún y mezclar bien.",
-            "Precalentar el horno a temperatura media.",
-            "En un molde o placa aceitada y enharinada, desplegar una de las masas de pascualina.",
-            "Incorporar el relleno de verduras, huevos y atún.",
-            "Cubrir con la otra masa de pascualina y hacer el repulgue en los bordes para sellar.",
-            "Hacer unos pequeños agujeros con un tenedor en la parte superior de la tarta para permitir la salida del vapor durante la cocción.",
-            "Llevar al horno precalentado y hornear durante 20 minutos o hasta que la masa esté dorada."
+            "Preparar el bacon a la sarten en su propia grasa o en el microondas.",
+            "Tostar las rodajas de pan. Una vez tostado untar la mayonesa en su cara interior.",
+            "Colocar las hojas de lechuga bien secas, pueden ponerse enteras o cortarlas en tiras.",
+            "Cubrir la lechuga con unas rodajas finas de tomate y salpimentar.",
+            "Terminar colocando las fetas de bacon y las rodajas de palta con unas gotitas de limon, si opta por añadirlo a la receta.",
+            "Cerrar el sandwich con la otra rebanada de pan y listo."
         ],
-        url: 'tarta_de_atun.html'
+        url: 'sandwich_blt.html'
     };
     const recetaContainer = document.getElementById('receta');
     

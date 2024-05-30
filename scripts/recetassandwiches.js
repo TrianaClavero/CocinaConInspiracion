@@ -3,73 +3,73 @@ const recetas = [
         nombre: "Sandwich BLT",
         imagen: "images/Sandwiches/sandwich-blt.jpg",
         tiempoPreparacion: "30 minutos",
-        url: 'arroz_con_pollo.html'
+        url: 'sandwich_blt.html'
     },
     {
         nombre: "Sandwich de pollo con salsa cesar",
         imagen: "images/Sandwiches/sandwich-de-pollo-con-salsa-cesar.jpg",
         tiempoPreparacion: "45 minutos",
-        url: 'arroz_con_pollo.html'
+        url: 'sandwich_de_pollo_cesar.html'
     },
     {
         nombre: "Sandwich BLT",
         imagen: "images/Sandwiches/sandwich-blt.jpg",
         tiempoPreparacion: "30 minutos",
-        url: 'arroz_con_pollo.html'
+        url: 'sandwich_blt.html'
     },
     {
         nombre: "Sandwich de pollo con salsa cesar",
         imagen: "images/Sandwiches/sandwich-de-pollo-con-salsa-cesar.jpg",
         tiempoPreparacion: "45 minutos",
-        url: 'arroz_con_pollo.html'
+        url: 'sandwich_de_pollo_cesar.html'
     },
     {
         nombre: "Sandwich BLT",
         imagen: "images/Sandwiches/sandwich-blt.jpg",
         tiempoPreparacion: "30 minutos",
-        url: 'arroz_con_pollo.html'
+        url: 'sandwich_blt.html'
     },
     {
         nombre: "Sandwich de pollo con salsa cesar",
         imagen: "images/Sandwiches/sandwich-de-pollo-con-salsa-cesar.jpg",
         tiempoPreparacion: "45 minutos",
-        url: 'arroz_con_pollo.html'
+        url: 'sandwich_de_pollo_cesar.html'
     },
     {
         nombre: "Sandwich BLT",
         imagen: "images/Sandwiches/sandwich-blt.jpg",
         tiempoPreparacion: "30 minutos",
-        url: 'arroz_con_pollo.html'
+        url: 'sandwich_blt.html'
     },
     {
         nombre: "Sandwich de pollo con salsa cesar",
         imagen: "images/Sandwiches/sandwich-de-pollo-con-salsa-cesar.jpg",
         tiempoPreparacion: "45 minutos",
-        url: 'arroz_con_pollo.html'
+        url: 'sandwich_de_pollo_cesar.html'
     },
     {
         nombre: "Sandwich BLT",
         imagen: "images/Sandwiches/sandwich-blt.jpg",
         tiempoPreparacion: "30 minutos",
-        url: 'arroz_con_pollo.html'
+        url: 'sandwich_blt.html'
     },
     {
         nombre: "Sandwich de pollo con salsa cesar",
         imagen: "images/Sandwiches/sandwich-de-pollo-con-salsa-cesar.jpg",
         tiempoPreparacion: "45 minutos",
-        url: 'arroz_con_pollo.html'
+        url: 'sandwich_de_pollo_cesar.html'
     },
     {
         nombre: "Sandwich BLT",
         imagen: "images/Sandwiches/sandwich-blt.jpg",
         tiempoPreparacion: "30 minutos",
-        url: 'arroz_con_pollo.html'
+        url: 'sandwich_blt.html'
     },
     {
         nombre: "Sandwich de pollo con salsa cesar",
         imagen: "images/Sandwiches/sandwich-de-pollo-con-salsa-cesar.jpg",
         tiempoPreparacion: "45 minutos",
-        url: 'arroz_con_pollo.html'
+        url: 'sandwich_de_pollo_cesar.html'
     }
     // mas recetas
 ];

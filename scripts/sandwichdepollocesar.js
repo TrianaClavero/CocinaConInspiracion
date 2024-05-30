@@ -1,34 +1,27 @@
 document.addEventListener('DOMContentLoaded', () => {
     const receta = {
-        nombre: "Tarta de atún",
-        imagen: "images/Tartas/tarta-de-atun.webp",
-        tiempoPreparacion: "60 minutos",
+        nombre: "Sandwich de pollo con salsa César",
+        imagen: "images/Sandwiches/sandwich-de-pollo-con-salsa-cesar.jpg",
+        tiempoPreparacion: "30 minutos",
         ingredientes: [
-            "400 gr de atún en conserva escurrido",
-            "Una cebolla grande",
-            "3 dientes de ajo",
-            "Un morron rojo",
-            "Un morron verde",
-            "Una cebolla de verdeo",
-            "4 huevos hervidos",
-            "2 Pascualinas (Tapas de tarta)",
-            "Un huevo batido para pintar",
+            "Pan de molde con semillas o integral",
+            "Manteca",
+            "Una pechuga de pollo",
+            "Un huevo",
+            "Pan rallado",
+            "Lechuga",
+            "Queso parmesano en fetas",
             "Sal",
-            "Pimienta"
+            "Pimienta",
+            "Salsa César"
         ],
         preparacion: [
-            "Cortar los pimientos, la cebolla y el ajo en cubitos pequeños.",
-            "En una sartén u olla, rehogar las verduras con un chorrito de aceite.",
-            "Cuando la cebolla esté transparente, apagar el fuego y agregar los huevos hervidos cortados en cubitos.",
-            "Salpimentar a gusto, incorporar el atún y mezclar bien.",
-            "Precalentar el horno a temperatura media.",
-            "En un molde o placa aceitada y enharinada, desplegar una de las masas de pascualina.",
-            "Incorporar el relleno de verduras, huevos y atún.",
-            "Cubrir con la otra masa de pascualina y hacer el repulgue en los bordes para sellar.",
-            "Hacer unos pequeños agujeros con un tenedor en la parte superior de la tarta para permitir la salida del vapor durante la cocción.",
-            "Llevar al horno precalentado y hornear durante 20 minutos o hasta que la masa esté dorada."
+            "Cortar la pechuga de pollo en filetes y salpimentar.",
+            "Pasar la pechuga por el huevo batido condimentado y por el pan rallado. Freir y reservar.",
+            "Untar el pan con un poquito de manteca y tostar en la plancha o sarten hasta que se dore.",
+            "Finalmente, montar los sandwiches, poniendo entre dos rebanadas de pan el pollo, un puñadito de lechuga finamente cortada, las fetas de queso parmesano y un poco de salsa."
         ],
-        url: 'tarta_de_atun.html'
+        url: 'sandwich_de_pollo_cesar.html'
     };
     const recetaContainer = document.getElementById('receta');
     
